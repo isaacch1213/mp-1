@@ -1,0 +1,34 @@
+main img {
+    max-width: 40%;
+    height: auto;
+}
+
+#p-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5%;
+    font-size: calc(2px + 1vw);
+}
+
+#home-container {
+    display: flex;
+    gap: 2%;
+    width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    #p-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        gap: 5%;
+        font-size: calc(2px + 1vw);
+    }
+
+    #home-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}

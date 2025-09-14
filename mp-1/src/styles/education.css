@@ -1,0 +1,26 @@
+.school-content {
+    border-left: solid 5px #F5E9DC;
+    padding-left: 1vw;
+}
+
+#education-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+    padding-left: 2vw;
+}
+
+#school-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2%;
+    width: 100%;
+}
+
+#school-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    height: 100%;
+}
