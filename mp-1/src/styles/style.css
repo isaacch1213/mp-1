@@ -95,6 +95,10 @@ nav li {
 }
 
 @media screen and (max-width: 1000px) {
+    p {
+        font-size: calc(2px + 2vw);
+    }
+    
     header {
         text-align: center;
     }
@@ -107,18 +111,16 @@ nav li {
 
     nav ul {
         flex-direction: row;
-    }
-
-    nav li {
-        font-size: calc(2px + 1vw);
-        background-color: #414361;
-        height: 2vh;
-        width: 15vw;
+        gap: 1%;
     }
 
     main {
         width: 100%;
         height: 100%;
+    }
+
+    main h2 {
+        font-size: calc(2px + 2.5vw);
     }
 
     #page-wrapper{

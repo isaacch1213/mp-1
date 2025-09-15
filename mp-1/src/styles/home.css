@@ -18,17 +18,27 @@ main img {
 }
 
 @media screen and (max-width: 1000px) {
-    #p-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 80%;
-        gap: 5%;
-        font-size: calc(2px + 1vw);
+    main img {
+        max-width: min(60%, 250px);
+        margin-bottom: 2%;
     }
 
+    #p-container {
+        gap: 2vh;
+    }
+
+    #p-container p {
+        font-size: calc(2px + 2vw);
+    }
+    
     #home-container {
         flex-direction: column;
         align-items: center;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #p-container p {
+        font-size: calc(2px + 2.5vw);
     }
 }
