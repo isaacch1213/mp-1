@@ -1,44 +1,44 @@
 main img {
-    max-width: 40%;
-    height: auto;
+  max-width: 40%;
+  height: auto;
 }
 
 #p-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 5%;
-    font-size: calc(2px + 1vw);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5%;
+  font-size: calc(2px + 1vw);
 }
 
 #home-container {
-    display: flex;
-    gap: 2%;
-    width: 100%;
+  display: flex;
+  gap: 2%;
+  width: 100%;
 }
 
 @media screen and (max-width: 1000px) {
-    main img {
-        max-width: min(60%, 250px);
-        margin-bottom: 2%;
-    }
+  main img {
+    max-width: min(60%, 250px);
+    margin-bottom: 2%;
+  }
 
-    #p-container {
-        gap: 2vh;
-    }
+  #p-container {
+    gap: 2vh;
+  }
 
-    #p-container p {
-        font-size: calc(2px + 2vw);
-    }
-    
-    #home-container {
-        flex-direction: column;
-        align-items: center;
-    }
+  #p-container p {
+    font-size: calc(2px + 2vw);
+  }
+
+  #home-container {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 750px) {
-    #p-container p {
-        font-size: calc(2px + 2.5vw);
-    }
+  #p-container p {
+    font-size: calc(2px + 2.5vw);
+  }
 }
