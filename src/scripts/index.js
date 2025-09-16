@@ -30,6 +30,7 @@ function doPower() {
 }
 
 function doClear() {
+  output.style.color = "#f5e9dc";
   input1.value = "";
   input2.value = "";
   output.innerHTML = "0";

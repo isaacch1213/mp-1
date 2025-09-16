@@ -28,7 +28,7 @@ main img {
   }
 
   #p-container p {
-    font-size: calc(2px + 2vw);
+    font-size: calc(2px + 1vw);
   }
 
   #home-container {
@@ -39,6 +39,6 @@ main img {
 
 @media screen and (max-width: 750px) {
   #p-container p {
-    font-size: calc(2px + 2.5vw);
+    font-size: calc(2px + 2vw);
   }
 }
