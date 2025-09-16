@@ -9,6 +9,7 @@ body {
   height: 100vh;
   color: #f5e9dc;
   background-color: #04082e;
+  font-family: "Roboto", sans-serif;
 }
 
 main {
@@ -113,6 +114,10 @@ nav li {
   nav ul {
     flex-direction: row;
     gap: 1%;
+  }
+
+  nav li {
+    font-size: calc(2px + 1.8vw);
   }
 
   main {

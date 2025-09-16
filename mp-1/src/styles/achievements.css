@@ -1,0 +1,26 @@
+#achievements-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+}
+
+#achievements-container img {
+  max-width: 60%;
+  height: auto;
+}
+
+@media screen and (max-width: 750px) {
+  #achievements-container img {
+    max-width: 80%;
+  }
+
+  #description {
+    max-width: 100%;
+  }
+
+  #description p {
+    text-align: center;
+    font-size: calc(2px + 3vw);
+  }
+}
