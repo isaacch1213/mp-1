@@ -21,6 +21,10 @@
   max-width: 60%;
 }
 
+.experience-description a {
+  color: #f5e9dc;
+}
+
 #experience-container {
   display: flex;
   flex-direction: column;
