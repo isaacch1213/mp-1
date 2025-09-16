@@ -1,0 +1,107 @@
+.projects-title a {
+  color: #f5e9dc;
+}
+
+.projects-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.projects-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+
+#projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  width: 100%;
+}
+
+#calculator-inputs {
+  display: flex;
+  gap: 1vw;
+}
+
+#input1 {
+  padding: 2.5%;
+}
+
+#input2 {
+  padding: 2.5%;
+}
+
+#calculator-buttons {
+  width: 50%;
+}
+
+#calculator-buttons button {
+  padding: 2.5%;
+  background-color: #414361;
+  border: solid #f5e9dc;
+  color: #f5e9dc;
+  cursor: pointer;
+}
+
+#calculator-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+#calculator-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3vw;
+}
+
+@media screen and (max-width: 1000px) {
+  #calculator-content {
+    gap: 5vw;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #calculator-content {
+    flex-direction: column;
+  }
+
+  #calculator-inputs {
+    width: 100%;
+  }
+
+  #input1 {
+    padding: 1.75%;
+  }
+
+  #input2 {
+    padding: 1.75%;
+  }
+
+  #calculator-buttons {
+    width: 100%;
+  }
+
+  #calculator-container p {
+    font-size: calc(2px + 2.5vw);
+  }
+
+  #calculator-content p {
+    font-size: calc(2px + 2.5vw);
+  }
+
+  #output-container p {
+    font-size: calc(2px + 2.5vw);
+  }
+
+  .projects-title p {
+    font-size: calc(2px + 2.5vw);
+  }
+
+  .projects-description p {
+    font-size: calc(2px + 2.5vw);
+  }
+}
