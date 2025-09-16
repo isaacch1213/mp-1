@@ -54,6 +54,10 @@
 }
 
 @media screen and (max-width: 750px) {
+  .experience-description {
+    margin-right: 2%;
+  }
+
   .logo-items {
     width: 70%;
   }
