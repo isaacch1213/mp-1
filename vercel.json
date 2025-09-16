@@ -1,5 +1,0 @@
-{
-    "rewrites": [
-        { "source": "/", "destination": "/mp-1/index.html" }
-    ]
-}
