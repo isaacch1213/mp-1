@@ -24,3 +24,13 @@
   gap: 5vh;
   height: 100%;
 }
+
+@media screen and (max-width: 1000px) {
+  .school-content p {
+    font-size: calc(2px + 3vw);
+  }
+
+  #relevant-courses-container p {
+    font-size: calc(2px + 3vw);
+  }
+}

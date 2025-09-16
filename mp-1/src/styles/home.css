@@ -19,7 +19,7 @@ main img {
 
 @media screen and (max-width: 1000px) {
   main img {
-    max-width: min(60%, 250px);
+    max-width: 250px;
     margin-bottom: 2%;
   }
 

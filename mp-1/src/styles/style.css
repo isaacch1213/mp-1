@@ -92,6 +92,7 @@ nav li {
   justify-content: center;
   height: 100%;
   gap: 3vh;
+  padding-bottom: 4vh;
 }
 
 @media screen and (max-width: 1000px) {
@@ -130,5 +131,12 @@ nav li {
   #content-container {
     flex-direction: column;
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  main h2 {
+    padding-top: 2vh;
+    font-size: calc(2px + 5vw);
   }
 }
