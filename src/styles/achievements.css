@@ -1,3 +1,7 @@
+#description a {
+  color: #f5e9dc;
+}
+
 #achievements-container {
   display: flex;
   flex-direction: column;
